@@ -39,6 +39,7 @@ img {
 }
 
 @media only screen and (min-width: 25em) {
+
   .dino {
     float: left;
     width: 50%;
@@ -51,6 +52,7 @@ img {
   .dino:last-child {
     display: inline-block;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -61,17 +63,10 @@ img {
   .dino:first-child {
     display: none;
   }
-
-  /* .dino:last-child {
-    display: none;
-  }
-
-  .dino:nth-last-child(2) {
-    display: inline-block;
-  } */
 }
 
 @media only screen and (min-width: 60em) {
+
   .dino {
     width: 25%;
   }
@@ -79,18 +74,5 @@ img {
   .dino:first-child {
     display: inline-block;
   }
+
 }
-/*
-
-
-
-
-
-
-  img .dino:last-child {
-    display: block;
-  }
-
-  img .dino:nth-last-child(2) {
-    display: block;
-  } */
