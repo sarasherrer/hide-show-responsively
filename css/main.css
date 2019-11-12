@@ -56,6 +56,7 @@ img {
 }
 
 @media only screen and (min-width: 38em) {
+
   .dino {
     width: 33.33%;
   }
@@ -63,6 +64,7 @@ img {
   .dino:first-child {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
